@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.7" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RaffleAPI.Application.DTOs\RaffleAPI.Application.DTOs.csproj" />
+    <ProjectReference Include="..\RaffleAPI.Domain.Repositories\RaffleAPI.Domain.Repositories.csproj" />
+    <ProjectReference Include="..\RaffleAPI.Infrastructure.Data\RaffleAPI.Infrastructure.Data.csproj" />
+  </ItemGroup>
+
+</Project>

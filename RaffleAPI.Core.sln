@@ -1,0 +1,89 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34916.146
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RaffleAPI.Api", "RaffleAPI.Api\RaffleAPI.Api.csproj", "{9BE6971B-7887-486C-A260-E3ABB26DE922}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RaffleAPI.Application", "RaffleAPI.Application", "{880BC351-CA36-483D-A6AA-AF73518B8136}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RaffleAPI.Application.DTOs", "RaffleAPI.Application.DTOs\RaffleAPI.Application.DTOs.csproj", "{AE005C1B-A63A-47E1-AF7F-C316968DFFCA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RaffleAPI.Application.Interfaces", "RaffleAPI.Application.Interfaces\RaffleAPI.Application.Interfaces.csproj", "{8A1C6A61-AE5B-421E-AA7E-EEB17EEE8BD4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RaffleAPI.Application.Services", "RaffleAPI.Application.Services\RaffleAPI.Application.Services.csproj", "{B9257778-E330-4410-A67D-737C863D4221}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RaffleAPI.Domain", "RaffleAPI.Domain", "{AB8D1C42-F44E-4F1E-8407-C06C7C5F5D22}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RaffleAPI.Domain.Entities", "RaffleAPI.Domain.Entities\RaffleAPI.Domain.Entities.csproj", "{A29D5A07-7051-4793-83CD-F55A85C73E48}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RaffleAPI.Domain.Repositories", "RaffleAPI.Domain.Repositories\RaffleAPI.Domain.Repositories.csproj", "{0CCB0548-2D83-4887-AB2D-25B40393B90F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RaffleAPI.Infrastructure", "RaffleAPI.Infrastructure", "{238F7D0A-A583-47AF-8F24-32D75B88F90D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RaffleAPI.Infrastructure.Data", "RaffleAPI.Infrastructure.Data\RaffleAPI.Infrastructure.Data.csproj", "{407C421D-F14A-4D14-B403-F62E4340F27C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RaffleAPI.Infrastructure.Repositories", "RaffleAPI.Infrastructure.Repositories\RaffleAPI.Infrastructure.Repositories.csproj", "{EDBFF94F-7445-4879-B147-F0E4E73E2C8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaffleAPI.Infrastructure.Security", "RaffleAPI.Infrastructure.Security\RaffleAPI.Infrastructure.Security.csproj", "{E7DF048D-5E1A-4B62-BE41-060F1B4688A1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9BE6971B-7887-486C-A260-E3ABB26DE922}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BE6971B-7887-486C-A260-E3ABB26DE922}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BE6971B-7887-486C-A260-E3ABB26DE922}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BE6971B-7887-486C-A260-E3ABB26DE922}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE005C1B-A63A-47E1-AF7F-C316968DFFCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE005C1B-A63A-47E1-AF7F-C316968DFFCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE005C1B-A63A-47E1-AF7F-C316968DFFCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE005C1B-A63A-47E1-AF7F-C316968DFFCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A1C6A61-AE5B-421E-AA7E-EEB17EEE8BD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A1C6A61-AE5B-421E-AA7E-EEB17EEE8BD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A1C6A61-AE5B-421E-AA7E-EEB17EEE8BD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A1C6A61-AE5B-421E-AA7E-EEB17EEE8BD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9257778-E330-4410-A67D-737C863D4221}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9257778-E330-4410-A67D-737C863D4221}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9257778-E330-4410-A67D-737C863D4221}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9257778-E330-4410-A67D-737C863D4221}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A29D5A07-7051-4793-83CD-F55A85C73E48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A29D5A07-7051-4793-83CD-F55A85C73E48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A29D5A07-7051-4793-83CD-F55A85C73E48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A29D5A07-7051-4793-83CD-F55A85C73E48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CCB0548-2D83-4887-AB2D-25B40393B90F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CCB0548-2D83-4887-AB2D-25B40393B90F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CCB0548-2D83-4887-AB2D-25B40393B90F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CCB0548-2D83-4887-AB2D-25B40393B90F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{407C421D-F14A-4D14-B403-F62E4340F27C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{407C421D-F14A-4D14-B403-F62E4340F27C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{407C421D-F14A-4D14-B403-F62E4340F27C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{407C421D-F14A-4D14-B403-F62E4340F27C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDBFF94F-7445-4879-B147-F0E4E73E2C8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDBFF94F-7445-4879-B147-F0E4E73E2C8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDBFF94F-7445-4879-B147-F0E4E73E2C8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDBFF94F-7445-4879-B147-F0E4E73E2C8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7DF048D-5E1A-4B62-BE41-060F1B4688A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7DF048D-5E1A-4B62-BE41-060F1B4688A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7DF048D-5E1A-4B62-BE41-060F1B4688A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7DF048D-5E1A-4B62-BE41-060F1B4688A1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AE005C1B-A63A-47E1-AF7F-C316968DFFCA} = {880BC351-CA36-483D-A6AA-AF73518B8136}
+		{8A1C6A61-AE5B-421E-AA7E-EEB17EEE8BD4} = {880BC351-CA36-483D-A6AA-AF73518B8136}
+		{B9257778-E330-4410-A67D-737C863D4221} = {880BC351-CA36-483D-A6AA-AF73518B8136}
+		{A29D5A07-7051-4793-83CD-F55A85C73E48} = {AB8D1C42-F44E-4F1E-8407-C06C7C5F5D22}
+		{0CCB0548-2D83-4887-AB2D-25B40393B90F} = {AB8D1C42-F44E-4F1E-8407-C06C7C5F5D22}
+		{407C421D-F14A-4D14-B403-F62E4340F27C} = {238F7D0A-A583-47AF-8F24-32D75B88F90D}
+		{EDBFF94F-7445-4879-B147-F0E4E73E2C8F} = {238F7D0A-A583-47AF-8F24-32D75B88F90D}
+		{E7DF048D-5E1A-4B62-BE41-060F1B4688A1} = {238F7D0A-A583-47AF-8F24-32D75B88F90D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FE96171D-FE43-48C6-9BDC-49DF2BCC6010}
+	EndGlobalSection
+EndGlobal
